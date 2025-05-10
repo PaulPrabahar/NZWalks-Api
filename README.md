@@ -15,7 +15,6 @@ This is an experimental API project created for learning purposes. It represents
 
 - CRUD operations for Walks and Regions
 - AutoMapper for DTO-to-Entity mapping
-- Fluent validation support (optional)
 - Clean architecture using repository pattern
 
 ## 💡 Purpose
@@ -24,5 +23,4 @@ This is an experimental API project created for learning purposes. It represents
 
 ---
 
-Let me know if you'd like me to generate a full `README.md` file including setup instructions and example API calls.
 
