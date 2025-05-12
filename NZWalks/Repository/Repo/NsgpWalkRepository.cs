@@ -24,13 +24,23 @@ public class NsgpWalkRepository : IWalkRepository
         await _dbContext.SaveChangesAsync();
     }
 
-    public async Task <List<Walk>> GetAllWalksASync()
+    public async Task <List<Walk>> GetAllWalksASync(string? filterOn = null, string? filterQuery = null)
     {
-        var result = await _dbContext.Walks
-            .Include("Region")
-            .Include("Difficulty")
-            .ToListAsync();
-        return result;
+        //var result = await _dbContext.Walks
+        //    .Include("Region")
+        //    .Include("Difficulty")
+        //    .ToListAsync();
+
+        var result = _dbContext.Walks.Include("Region").Include("Difficulty").AsQueryable();
+
+        if (string.IsNullOrWhiteSpace(filterOn) == false && string.IsNullOrWhiteSpace(filterQuery) == false )
+        {
+            if (filterOn.Equals("Name",StringComparison.OrdinalIgnoreCase))
+            {
+                result = result.Where(x => x.Name.Contains(filterQuery));
+            }
+        }
+        return await result.ToListAsync();
 
     }
 
