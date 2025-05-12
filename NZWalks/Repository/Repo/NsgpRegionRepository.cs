@@ -16,10 +16,31 @@ public class NsgpRegionRepository : IRegionRepository
         _dbContext = dbContext;
     }
 
-    public async Task< List<Region>> GetAllRegionAsync()
+    public async Task< List<Region>> GetAllRegionAsync(string? filterOn, string? filterQuery, string? sortBy, bool isAssigned, int pageSize, int pageNumber)
     {
-        var regionDomain = await _dbContext.Regions.ToListAsync();
-        return regionDomain;
+        //var regionDomain = await _dbContext.Regions.ToListAsync();
+        var regionDomain =  _dbContext.Regions.AsQueryable();
+
+        if (string.IsNullOrWhiteSpace(filterOn) == false && string.IsNullOrWhiteSpace(filterQuery) == false)
+        {
+            if (filterQuery.Equals("Name",StringComparison.OrdinalIgnoreCase))
+            {
+                regionDomain = regionDomain.Where(x => x.Name.Contains(filterQuery));
+            }
+        }
+
+        if(string.IsNullOrWhiteSpace(sortBy) == false)
+        {
+            if (sortBy.Equals("Name", StringComparison.OrdinalIgnoreCase))
+            {
+                regionDomain = isAssigned ? regionDomain.OrderBy(x => x.Name) : regionDomain.OrderByDescending(x => x.Name);
+            }
+        }
+       
+        var skipResult = (pageNumber - 1) * pageSize;
+
+
+        return await regionDomain.Skip(skipResult).Take(pageSize).ToListAsync();
     }
 
     public async Task<Region> GetRegionById(Guid id)

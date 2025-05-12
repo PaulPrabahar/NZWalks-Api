@@ -25,9 +25,9 @@ public class RegionController : ControllerBase
     }
 
     [HttpGet]
-    public async Task <IActionResult> GetAllRegion()
+    public async Task <IActionResult> GetAllRegion([FromQuery] string?filterOn, [FromQuery] string? filterQuery, [FromQuery] string? sortBy, [FromQuery] bool isAssigned, [FromQuery] int pageSize, [FromQuery] int pageNumber)
     {
-        var regionsDomain = await _regionRepository.GetAllRegionAsync();
+        var regionsDomain = await _regionRepository.GetAllRegionAsync(filterOn, filterQuery, sortBy, isAssigned, pageSize, pageNumber);
 
         var regions = _mapper.Map<List<RegionDto>>(regionsDomain);
 
