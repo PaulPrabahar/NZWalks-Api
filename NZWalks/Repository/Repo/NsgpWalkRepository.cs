@@ -24,7 +24,7 @@ public class NsgpWalkRepository : IWalkRepository
         await _dbContext.SaveChangesAsync();
     }
 
-    public async Task <List<Walk>> GetAllWalksASync(string? filterOn = null, string? filterQuery = null)
+    public async Task <List<Walk>> GetAllWalksASync(string? filterOn = null, string? filterQuery = null, string? sortBy = null, bool isAscending = true)
     {
         //var result = await _dbContext.Walks
         //    .Include("Region")
@@ -38,6 +38,14 @@ public class NsgpWalkRepository : IWalkRepository
             if (filterOn.Equals("Name",StringComparison.OrdinalIgnoreCase))
             {
                 result = result.Where(x => x.Name.Contains(filterQuery));
+            }
+        }
+
+        if (string.IsNullOrWhiteSpace(sortBy) == false )
+        {
+            if (sortBy.Equals("Name", StringComparison.OrdinalIgnoreCase))
+            {
+                result = isAscending ? result.OrderBy(x => x.Name) : result.OrderByDescending(x => x.Name);
             }
         }
         return await result.ToListAsync();

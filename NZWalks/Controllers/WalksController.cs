@@ -34,9 +34,9 @@ public class WalksController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetAllWalks([FromQuery] string?filterOn, string?filterQuery)
+    public async Task<IActionResult> GetAllWalks([FromQuery] string?filterOn, [FromQuery] string?filterQuery, [FromQuery] string?sortBy, [FromQuery] bool isAscending)
     {
-        var walkDomain = await _repository.GetAllWalksASync(filterOn, filterQuery);
+        var walkDomain = await _repository.GetAllWalksASync(filterOn, filterQuery, sortBy, isAscending);
 
         var walkDto = _mapper.Map<List<WalkDto>>(walkDomain);
 
