@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,7 @@ namespace NZWalks.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
+[Authorize]
 public class RegionController : ControllerBase
 {
     private readonly IRegionRepository _regionRepository;
