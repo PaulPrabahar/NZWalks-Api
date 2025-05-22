@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|d:\\keycloakmiddleware\\nzwalks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|d:\\keycloakmiddleware\\nzwalks\\dto\\requestdto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|solutionrelative:dto\\requestdto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|d:\\keycloakmiddleware\\nzwalks\\dto\\requestdto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|solutionrelative:dto\\requestdto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,15 +22,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegisterRequestDto.cs",
-              "DocumentMoniker": "D:\\KeycloakMiddleware\\NZWalks\\Dto\\RequestDto\\RegisterRequestDto.cs",
-              "RelativeDocumentMoniker": "Dto\\RequestDto\\RegisterRequestDto.cs",
-              "ToolTip": "D:\\KeycloakMiddleware\\NZWalks\\Dto\\RequestDto\\RegisterRequestDto.cs",
-              "RelativeToolTip": "Dto\\RequestDto\\RegisterRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAnAAAA",
+              "DocumentIndex": 1,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "D:\\KeycloakMiddleware\\NZWalks\\Dto\\RequestDto\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "Dto\\RequestDto\\LoginRequestDto.cs",
+              "ToolTip": "D:\\KeycloakMiddleware\\NZWalks\\Dto\\RequestDto\\LoginRequestDto.cs",
+              "RelativeToolTip": "Dto\\RequestDto\\LoginRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T09:06:13.643Z",
+              "WhenOpened": "2025-05-22T04:35:10.074Z",
               "EditorCaption": ""
             },
             {
@@ -45,22 +41,9 @@
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "D:\\KeycloakMiddleware\\NZWalks\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAIAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwEEAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T08:57:29.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\KeycloakMiddleware\\NZWalks\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\KeycloakMiddleware\\NZWalks\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAA0AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T10:54:08.935Z",
               "EditorCaption": ""
             }
           ]

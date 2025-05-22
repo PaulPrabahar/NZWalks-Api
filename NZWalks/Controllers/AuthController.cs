@@ -17,6 +17,7 @@ namespace NZWalks.Controllers
         }
 
         [HttpPost]
+        [Route("Register")]
 
         public async Task<IActionResult> Register([FromBody] RegisterRequestDto registerRequestDto)
         {
@@ -43,6 +44,26 @@ namespace NZWalks.Controllers
             }
 
             return BadRequest("Something Went wrong");
+        }
+
+        [HttpPost]
+        [Route("Login")]
+
+        public async Task<IActionResult> Login([FromBody] LoginRequestDto loginRequestDto)
+        {
+            var identityResult = await _userManager.FindByEmailAsync(loginRequestDto.UserName);
+
+            if(identityResult != null)
+            {
+                var checkPasswordresult = await _userManager.CheckPasswordAsync(identityResult, loginRequestDto.Password);
+
+                if (checkPasswordresult)
+                {
+
+                   return Ok();
+                }
+            }
+            return BadRequest("invalid User Name Or Password");
         }
     }
 }
