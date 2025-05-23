@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Dto\ResponceDto\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
 

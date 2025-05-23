@@ -22,7 +22,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<NZWalksDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("NZWalksConnectionString")));
 builder.Services.AddDbContext<NZWalksAuthDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("NZWalksAuthConnectionString")));
 builder.Services.AddScoped<IRegionRepository, NsgpRegionRepository>();
-builder.Services.AddScoped<IWalkRepository, NsgpWalkRepository>();
+builder.Services.AddScoped<IWalkRepository, NsgpWalkRepository>(); 
+builder.Services.AddScoped<ICreateTokenRepository, NsgpCreateJWTTokenRepository>();
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
 builder.Services.AddIdentityCore<IdentityUser>()
