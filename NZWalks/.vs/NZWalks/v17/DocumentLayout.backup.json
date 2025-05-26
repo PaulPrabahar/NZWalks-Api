@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\KeycloakMiddleware\\NZWalks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|d:\\keycloakmiddleware\\nzwalks\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|solutionrelative:controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|d:\\keycloakmiddleware\\nzwalks\\migrations\\20250526040844_addedimagedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|solutionrelative:migrations\\20250526040844_addedimagedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|d:\\keycloakmiddleware\\nzwalks\\data\\nzwalksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|solutionrelative:data\\nzwalksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|d:\\keycloakmiddleware\\nzwalks\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|solutionrelative:models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RegionController.cs",
-              "DocumentMoniker": "D:\\KeycloakMiddleware\\NZWalks\\Controllers\\RegionController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RegionController.cs",
-              "ToolTip": "D:\\KeycloakMiddleware\\NZWalks\\Controllers\\RegionController.cs",
-              "RelativeToolTip": "Controllers\\RegionController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAkwF8AAAAIAAAAAAAAAA==",
+              "Title": "20250526040844_AddedImageDb.cs",
+              "DocumentMoniker": "D:\\KeycloakMiddleware\\NZWalks\\Migrations\\20250526040844_AddedImageDb.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250526040844_AddedImageDb.cs",
+              "ToolTip": "D:\\KeycloakMiddleware\\NZWalks\\Migrations\\20250526040844_AddedImageDb.cs",
+              "RelativeToolTip": "Migrations\\20250526040844_AddedImageDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T07:09:46.662Z",
+              "WhenOpened": "2025-05-26T04:08:44.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NZWalksDbContext.cs",
+              "DocumentMoniker": "D:\\KeycloakMiddleware\\NZWalks\\Data\\NZWalksDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\NZWalksDbContext.cs",
+              "ToolTip": "D:\\KeycloakMiddleware\\NZWalks\\Data\\NZWalksDbContext.cs",
+              "RelativeToolTip": "Data\\NZWalksDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T04:04:20.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Image.cs",
+              "DocumentMoniker": "D:\\KeycloakMiddleware\\NZWalks\\Models\\Image.cs",
+              "RelativeDocumentMoniker": "Models\\Image.cs",
+              "ToolTip": "D:\\KeycloakMiddleware\\NZWalks\\Models\\Image.cs",
+              "RelativeToolTip": "Models\\Image.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T03:56:56.17Z",
               "EditorCaption": ""
             }
           ]
