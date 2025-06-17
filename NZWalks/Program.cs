@@ -9,6 +9,7 @@ using NZWalks.Repository.Repo;
 using System.Text;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.OpenApi.Models;
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -45,13 +46,14 @@ builder.Services.AddSwaggerGen(options => {
         }
     });
 });
-
+builder.Services.AddHttpContextAccessor();
 //dependency Injection
 builder.Services.AddDbContext<NZWalksDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("NZWalksConnectionString")));
 builder.Services.AddDbContext<NZWalksAuthDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("NZWalksAuthConnectionString")));
 builder.Services.AddScoped<IRegionRepository, NsgpRegionRepository>();
 builder.Services.AddScoped<IWalkRepository, NsgpWalkRepository>(); 
 builder.Services.AddScoped<ICreateTokenRepository, NsgpCreateJWTTokenRepository>();
+builder.Services.AddScoped<IImageRepository, NsgpLocalImageRepository>();
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
 builder.Services.AddIdentityCore<IdentityUser>()
@@ -97,6 +99,14 @@ app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseStaticFiles(
+    new StaticFileOptions
+    {
+        FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "Images")),
+        RequestPath ="/Images"
+    }
+);
 
 app.MapControllers();
 

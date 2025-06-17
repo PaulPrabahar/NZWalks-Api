@@ -20,5 +20,7 @@ public class AutoMapperProfile : Profile
 
         CreateMap<UpdateWalkRequestDto, Walk>()
             .ForAllMembers(opt => opt.Condition((src,dest,srcMember)=> srcMember != null));
+        CreateMap<ImageRequestDto, Image>().ForMember(dest => dest.FileExtension,
+               opt => opt.MapFrom(src => Path.GetExtension(src.File.FileName)));
     }
 }

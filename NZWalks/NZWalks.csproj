@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <Folder Include="Dto\ResponceDto\" />
+    <Folder Include="Images\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
 

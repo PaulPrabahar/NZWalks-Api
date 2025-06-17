@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "D:\\KeycloakMiddleware\\NZWalks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|d:\\keycloakmiddleware\\nzwalks\\migrations\\20250526040844_addedimagedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|solutionrelative:migrations\\20250526040844_addedimagedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|d:\\keycloakmiddleware\\nzwalks\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|solutionrelative:controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|d:\\keycloakmiddleware\\nzwalks\\data\\nzwalksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|solutionrelative:data\\nzwalksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|d:\\keycloakmiddleware\\nzwalks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|d:\\keycloakmiddleware\\nzwalks\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|solutionrelative:controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|d:\\keycloakmiddleware\\nzwalks\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|solutionrelative:mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|d:\\keycloakmiddleware\\nzwalks\\repository\\interface\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|solutionrelative:repository\\interface\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|d:\\keycloakmiddleware\\nzwalks\\repository\\repo\\nsgplocalimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|solutionrelative:repository\\repo\\nsgplocalimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|d:\\keycloakmiddleware\\nzwalks\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|solutionrelative:controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|d:\\keycloakmiddleware\\nzwalks\\dto\\requestdto\\imagerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|solutionrelative:dto\\requestdto\\imagerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BC6F7DE-964F-4BBB-BD1B-7C30B58453D9}|NZWalks.csproj|d:\\keycloakmiddleware\\nzwalks\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,45 +46,131 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250526040844_AddedImageDb.cs",
-              "DocumentMoniker": "D:\\KeycloakMiddleware\\NZWalks\\Migrations\\20250526040844_AddedImageDb.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250526040844_AddedImageDb.cs",
-              "ToolTip": "D:\\KeycloakMiddleware\\NZWalks\\Migrations\\20250526040844_AddedImageDb.cs",
-              "RelativeToolTip": "Migrations\\20250526040844_AddedImageDb.cs",
+              "Title": "WalksController.cs",
+              "DocumentMoniker": "D:\\KeycloakMiddleware\\NZWalks\\Controllers\\WalksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WalksController.cs",
+              "ToolTip": "D:\\KeycloakMiddleware\\NZWalks\\Controllers\\WalksController.cs",
+              "RelativeToolTip": "Controllers\\WalksController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T10:08:35.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegionController.cs",
+              "DocumentMoniker": "D:\\KeycloakMiddleware\\NZWalks\\Controllers\\RegionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegionController.cs",
+              "ToolTip": "D:\\KeycloakMiddleware\\NZWalks\\Controllers\\RegionController.cs",
+              "RelativeToolTip": "Controllers\\RegionController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T04:08:44.985Z",
+              "WhenOpened": "2025-06-17T08:56:43.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NZWalksDbContext.cs",
-              "DocumentMoniker": "D:\\KeycloakMiddleware\\NZWalks\\Data\\NZWalksDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\NZWalksDbContext.cs",
-              "ToolTip": "D:\\KeycloakMiddleware\\NZWalks\\Data\\NZWalksDbContext.cs",
-              "RelativeToolTip": "Data\\NZWalksDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\KeycloakMiddleware\\NZWalks\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\KeycloakMiddleware\\NZWalks\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T04:04:20.751Z",
+              "WhenOpened": "2025-06-17T08:53:35.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "NsgpLocalImageRepository.cs",
+              "DocumentMoniker": "D:\\KeycloakMiddleware\\NZWalks\\Repository\\Repo\\NsgpLocalImageRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repo\\NsgpLocalImageRepository.cs",
+              "ToolTip": "D:\\KeycloakMiddleware\\NZWalks\\Repository\\Repo\\NsgpLocalImageRepository.cs",
+              "RelativeToolTip": "Repository\\Repo\\NsgpLocalImageRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:24:41.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IImageRepository.cs",
+              "DocumentMoniker": "D:\\KeycloakMiddleware\\NZWalks\\Repository\\Interface\\IImageRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interface\\IImageRepository.cs",
+              "ToolTip": "D:\\KeycloakMiddleware\\NZWalks\\Repository\\Interface\\IImageRepository.cs",
+              "RelativeToolTip": "Repository\\Interface\\IImageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:23:19.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "D:\\KeycloakMiddleware\\NZWalks\\Mappings\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "Mappings\\AutoMapperProfile.cs",
+              "ToolTip": "D:\\KeycloakMiddleware\\NZWalks\\Mappings\\AutoMapperProfile.cs",
+              "RelativeToolTip": "Mappings\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T09:27:15.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Image.cs",
               "DocumentMoniker": "D:\\KeycloakMiddleware\\NZWalks\\Models\\Image.cs",
               "RelativeDocumentMoniker": "Models\\Image.cs",
               "ToolTip": "D:\\KeycloakMiddleware\\NZWalks\\Models\\Image.cs",
               "RelativeToolTip": "Models\\Image.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T03:56:56.17Z",
+              "WhenOpened": "2025-05-26T04:34:41.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ImageRequestDto.cs",
+              "DocumentMoniker": "D:\\KeycloakMiddleware\\NZWalks\\Dto\\RequestDto\\ImageRequestDto.cs",
+              "RelativeDocumentMoniker": "Dto\\RequestDto\\ImageRequestDto.cs",
+              "ToolTip": "D:\\KeycloakMiddleware\\NZWalks\\Dto\\RequestDto\\ImageRequestDto.cs",
+              "RelativeToolTip": "Dto\\RequestDto\\ImageRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T04:33:07.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "D:\\KeycloakMiddleware\\NZWalks\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ImageController.cs",
+              "ToolTip": "D:\\KeycloakMiddleware\\NZWalks\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "Controllers\\ImageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T04:27:30.461Z",
               "EditorCaption": ""
             }
           ]
