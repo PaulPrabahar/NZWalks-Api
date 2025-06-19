@@ -19,22 +19,32 @@ public class RegionController : ControllerBase
 {
     private readonly IRegionRepository _regionRepository;
     private readonly IMapper _mapper;
+    private readonly ILogger<RegionController> _logger;
 
-    public RegionController(IRegionRepository regionRepository, IMapper mapper)
+    public RegionController(IRegionRepository regionRepository, IMapper mapper, ILogger<RegionController> logger)
     {
         _regionRepository = regionRepository;
         _mapper = mapper;
+        _logger = logger;
     }
 
     [HttpGet]
-    [Authorize(Roles = "Reader")]
+    //[Authorize(Roles = "Reader")]
     public async Task <IActionResult> GetAllRegion([FromQuery] string?filterOn, [FromQuery] string? filterQuery, [FromQuery] string? sortBy, [FromQuery] bool isAssigned, [FromQuery] int pageSize, [FromQuery] int pageNumber)
     {
-        var regionsDomain = await _regionRepository.GetAllRegionAsync(filterOn, filterQuery, sortBy, isAssigned, pageSize, pageNumber);
+        try
+        {
+            var regionsDomain = await _regionRepository.GetAllRegionAsync(filterOn, filterQuery, sortBy, isAssigned, pageSize, pageNumber);
 
-        var regions = _mapper.Map<List<RegionDto>>(regionsDomain);
+            var regions = _mapper.Map<List<RegionDto>>(regionsDomain);
 
-        return Ok(regions);
+            return Ok(regions);
+        }
+        catch (Exception ex) 
+        { 
+            _logger.LogError(ex,ex.Message);
+            throw;
+        }
     }
 
     [HttpGet]
